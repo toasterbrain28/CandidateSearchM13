@@ -1,33 +1,34 @@
-# React + TypeScript + Vite
+# CandidateSearcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Currently, two official plugins are available:
+## Table of Contents
++ [Description](#Description)
++ [Installation](#Installation)
++ [Usage](#Usage)
++ [License](#License)
++ [Contributing](#Contributing)
++ [Questions](#Questions)
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Description
+A react app where you can view and save profiles from the public github API!
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Installation
+Download the code, run npm install in the folder, and then run npm start.
 
-* Configure the top-level `parserOptions` property as follows:
+## Usage/Bugs
+Currently my API isn't fetching user data, but maybe you'll have more luck before
+I update it!
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![Number13](https://github.com/user-attachments/assets/281d731f-0b19-4f4d-9647-ebe964df53b2)
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## License
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+
+## Contributing
+Leave feedback or comment on the github
+
+## Questions
+For any questions, please contact [toasterbrain28](https://github.com/toasterbrain28) or email at ###########.
